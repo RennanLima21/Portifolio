@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+ul {
+  list-style: none;
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 15px;
+}
+
+/* fundo da pagina */
+body {
+  background-image: url(./imagens/fundo_pag.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background: linear-gradient(90deg, #59b4e0, #a8c3d4 ); fundo gradiente para o background*/
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+
+header ul{
+  display: flex;
+  background: linear-gradient(90deg, #022640, #0160a4 );
+  border-radius: 5px;
+  padding-right: 10px;
+  padding-left: 300px;
+  padding-top: 40px;
+  
+}
+
+header ul li{  
+  padding: 30px;
+}
+
+img{
+  width: 180px;
+}
+
+.container h1{
+font-size: 70px;
+color: #c1e5fd;
+}
+
+.container h5{
+  color: #dfe8f4;
+  font-size: 30px;  
+}
+
+#about p{
+  color: #dfe8f4;
+  max-width: 600px;  
+}
+
+.form{
+  width: 40%;
+}
+
+.form input{
+  width: 50%;
+}
+
+.form button{
+  width: 15%;
+}
