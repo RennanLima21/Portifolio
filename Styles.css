@@ -5,14 +5,18 @@
   font-family: 'poppins', sans-serif;
 }
 
-ul {
-  list-style: none;
+/*modificar botão lista*/
+ul {  
+  list-style:none;
   font-size: 15px;
+
 }
 
 a {
   text-decoration: none;
   font-size: 15px;
+  color: #a8c3d4;
+  
 }
 
 /* fundo da pagina */
@@ -22,7 +26,7 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  /*background: linear-gradient(90deg, #59b4e0, #a8c3d4 ); fundo gradiente para o background*/
+  
 }
 
 header{
@@ -34,6 +38,7 @@ header{
 
 header ul{
   display: flex;
+  /*background: linear-gradient(90deg, #59b4e0, #a8c3d4 ); fundo gradiente para o background*/
   background: linear-gradient(90deg, #022640, #0160a4 );
   border-radius: 5px;
   padding-right: 10px;
@@ -44,6 +49,18 @@ header ul{
 
 header ul li{  
   padding: 30px;
+}
+
+/* transição da cor do icone*/
+header ul li a{
+  transition: 300ms;
+  font-size: 30px;
+}
+
+/*colocar cor no link clicavel*/
+header ul li a:hover{
+  color: #1974b0;
+  text-decoration: underline;
 }
 
 img{
@@ -60,19 +77,39 @@ color: #c1e5fd;
   font-size: 30px;  
 }
 
+#arrow{
+  font-size: 30px;
+}
+
 #about p{
   color: #dfe8f4;
   max-width: 600px;  
 }
 
+/*% geral q os 2 botões ocupa*/
 .form{
-  width: 40%;
+  width: 30%;
 }
 
+/*largura do campo pra digitar o email.*/
 .form input{
   width: 50%;
+  font-size: 20px;
 }
 
+/* tamanho do botão ''enviar'' em % a pagina */
 .form button{
   width: 15%;
+  padding: 5px 10px;
+  background-color: #c1e5fd;
+  color: #022640;
+  font-weight: 300;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.form button:hover{
+  background-color: #1974b0;
+  color: #c1e5fd;
 }
